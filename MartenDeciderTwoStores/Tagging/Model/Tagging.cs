@@ -1,6 +1,4 @@
-using Marten.Schema;
-
-namespace MartenStuff.Tagging.Model;
+namespace MartenDeciderTwoStores.Tagging.Model;
 
 public class Tagging
 {

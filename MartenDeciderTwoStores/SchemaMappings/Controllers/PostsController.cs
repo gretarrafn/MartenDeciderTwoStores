@@ -1,9 +1,9 @@
 using Marten;
-using MartenStuff.SchemaMappings.Model;
+using MartenDeciderTwoStores.SchemaMappings.Model;
 using Microsoft.AspNetCore.Mvc;
 using Wolverine;
 
-namespace MartenStuff.SchemaMappings.Controllers;
+namespace MartenDeciderTwoStores.SchemaMappings.Controllers;
 
 [ApiController]
 public class PostsController

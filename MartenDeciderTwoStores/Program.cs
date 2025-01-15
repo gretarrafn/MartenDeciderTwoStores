@@ -1,6 +1,5 @@
-
-using MartenStuff.SchemaMappings.EventStore;
-using MartenStuff.Tagging.EventStore;
+using MartenDeciderTwoStores.SchemaMappings.EventStore;
+using MartenDeciderTwoStores.Tagging.EventStore;
 
 var webApplicationBuilder = WebApplication.CreateBuilder(args);
 

@@ -1,6 +1,6 @@
 using Marten.Events.Aggregation;
 
-namespace MartenStuff.Tagging.Model;
+namespace MartenDeciderTwoStores.Tagging.Model;
 
 public class TaggingProjection: SingleStreamProjection<Tagging>
 {

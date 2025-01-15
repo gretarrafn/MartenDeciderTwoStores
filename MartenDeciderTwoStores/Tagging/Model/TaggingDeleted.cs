@@ -1,3 +1,3 @@
-namespace MartenStuff.Tagging.Model;
+namespace MartenDeciderTwoStores.Tagging.Model;
 
 public record TaggingDeleted();

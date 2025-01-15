@@ -1,9 +1,8 @@
-
 using Marten;
-using MartenStuff.Tagging.EventStore;
+using MartenDeciderTwoStores.Tagging.EventStore;
 using Wolverine.Marten;
 
-namespace MartenStuff.Tagging.Model;
+namespace MartenDeciderTwoStores.Tagging.Model;
 
 
 [AggregateHandler(AggregateType = typeof(Tagging))]

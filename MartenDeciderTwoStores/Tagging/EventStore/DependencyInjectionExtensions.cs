@@ -1,11 +1,11 @@
 using Marten;
 using Marten.Events.Daemon.Resiliency;
 using Marten.Events.Projections;
-using MartenStuff.Tagging.Model;
+using MartenDeciderTwoStores.Tagging.Model;
 using Weasel.Core;
 using Wolverine.Marten;
 
-namespace MartenStuff.Tagging.EventStore;
+namespace MartenDeciderTwoStores.Tagging.EventStore;
 
 public interface ITaggingStore : IDocumentStore;
 

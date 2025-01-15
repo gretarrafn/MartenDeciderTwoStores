@@ -1,7 +1,7 @@
 using Marten;
 using Wolverine.Marten;
 
-namespace MartenStuff.SchemaMappings.Model;
+namespace MartenDeciderTwoStores.SchemaMappings.Model;
 
 [AggregateHandler(AggregateType = typeof(SchemaMapping))]
 public static class CommandHandlers

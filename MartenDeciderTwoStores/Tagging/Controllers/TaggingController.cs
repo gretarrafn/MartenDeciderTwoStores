@@ -1,11 +1,9 @@
-using Marten;
-using MartenStuff.Tagging.EventStore;
-using MartenStuff.Tagging.Model;
-using Microsoft.AspNetCore.Http.HttpResults;
+using MartenDeciderTwoStores.Tagging.EventStore;
+using MartenDeciderTwoStores.Tagging.Model;
 using Microsoft.AspNetCore.Mvc;
 using Wolverine;
 
-namespace MartenStuff.Tagging.Controllers;
+namespace MartenDeciderTwoStores.Tagging.Controllers;
 
 [ApiController]
 public class TaggingController

@@ -1,4 +1,4 @@
-namespace MartenStuff.SchemaMappings.Model;
+namespace MartenDeciderTwoStores.SchemaMappings.Model;
 
 public record SchemaMappingCreated(string? Name)
 {

@@ -1,6 +1,6 @@
 using Marten.Events.Aggregation;
 
-namespace MartenStuff.SchemaMappings.Model;
+namespace MartenDeciderTwoStores.SchemaMappings.Model;
 
 public class SchemaMappingProjection: SingleStreamProjection<SchemaMapping>
 {

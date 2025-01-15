@@ -1,12 +1,12 @@
 using Marten;
 using Marten.Events.Daemon.Resiliency;
 using Marten.Events.Projections;
-using MartenStuff.SchemaMappings.Model;
+using MartenDeciderTwoStores.SchemaMappings.Model;
 using Weasel.Core;
 using Wolverine;
 using Wolverine.Marten;
 
-namespace MartenStuff.SchemaMappings.EventStore;
+namespace MartenDeciderTwoStores.SchemaMappings.EventStore;
 
 public static class DependencyInjectionExtensions
 {
