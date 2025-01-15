@@ -1,0 +1,23 @@
+
+@MartenStuff_HostAddress = http://localhost:5285
+
+POST {{MartenStuff_HostAddress}}/custom_data_schema_mapping
+Accept: application/json
+Content-Type: application/json
+
+"Testing"
+
+###
+POST {{MartenStuff_HostAddress}}/custom_data_schema_mapping/01946c16-b474-464a-992e-ebd55bfbf2c2
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "new name"
+}
+
+###
+GET {{MartenStuff_HostAddress}}/custom_data_schema_mapping/01946c16-b474-464a-992e-ebd55bfbf2c2
+Accept: application/json
+
+###
